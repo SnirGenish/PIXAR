@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  height: 15vh;
+  position: relative;
+}
+#logo {
+  display: inline;
+  position: absolute;
+  top: 2vh;
+  left: 9vw;
+}
+nav ul {
+  display: inline;
+  position: absolute;
+  top: 2vh;
+  right: 12vw;
+}
+nav ul li {
+  display: inline;
+  margin: 0px 1vw 0px 1vw;
+}
+nav ul li a {
+  font-size: 90%;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(170, 170, 170);
+  transition: 0.4s;
+}
+main {
+  height: 100vh;
+  position: relative;
+}
+#sad {
+  height: 74vh;
+  position: absolute;
+  top: 16vh;
+  left: 10vw;
+}
+#text {
+  position: absolute;
+  right: 12vw;
+  top: 30vh;
+}
+main h1 {
+  font-size: 47px;
+  font-weight: bolder;
+  letter-spacing: 8px;
+}
+main h2 {
+  font-size: 15px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+footer {
+  height: 48vh;
+  position: relative;
+}
+.icons {
+  position: absolute;
+  left: 39vw;
+}
+.icons ul {
+  list-style: none;
+}
+.icons ul:hover {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.icons ul li {
+  display: inline;
+  margin-right: 0.5vw;
+}
+.icons ul li a {
+  text-decoration: none;
+}
+.ico {
+  height: 4vh;
+}
+
+.links {
+  position: absolute;
+  top: 20vh;
+  left: 39vh;
+}
+.links ul {
+  line-height: 4vh;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  left: 0px;
+}
+.links ul li {
+  display: inline;
+}
+
+.links ul li a {
+  text-decoration: underline;
+  font-size: 13px;
+  color: rgb(53, 53, 53);
+  letter-spacing: 4px;
+  text-underline-offset: 40%;
+}
+
+.links ul li a:hover {
+  color: rgb(117, 117, 117);
+  transition: 0.3s;
+}
+
+.links p {
+  text-align: center;
+  left: 25vh;
+  font-size: 13px;
+}
