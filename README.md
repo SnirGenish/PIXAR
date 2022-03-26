@@ -1,6 +1,6 @@
 # PIXAR
 
-#### By**_Snir Genish_**
+#### By _Snir Genish_
 
 #### _pixar's 404 page replica_
 
